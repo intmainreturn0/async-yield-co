@@ -1,0 +1,39 @@
+{
+  "message": "accurate",
+  "cod": "200",
+  "count": 1,
+  "list": [
+    {
+      "id": 1502026,
+      "name": "Krasnoyarsk",
+      "coord": {
+        "lon": 92.791672,
+        "lat": 56.00972
+      },
+      "main": {
+        "temp": 1.79,
+        "temp_min": 1.79,
+        "temp_max": 1.79,
+        "pressure": 1000.61,
+        "sea_level": 1043.96,
+        "grnd_level": 1000.61,
+        "humidity": 85
+      },
+      "dt": 1428668566,
+      "wind": {
+        "speed": 1.31,
+        "deg": 134.504
+      },
+      "sys": {"country": "RU"},
+      "clouds": {"all": 0},
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "Sky is Clear",
+          "icon": "01d"
+        }
+      ]
+    }
+  ]
+}

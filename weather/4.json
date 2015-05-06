@@ -1,0 +1,39 @@
+{
+  "message": "accurate",
+  "cod": "200",
+  "count": 1,
+  "list": [
+    {
+      "id": 658225,
+      "name": "Helsinki",
+      "coord": {
+        "lon": 24.93545,
+        "lat": 60.169521
+      },
+      "main": {
+        "temp": 3.69,
+        "temp_min": 3.69,
+        "temp_max": 3.69,
+        "pressure": 1023.32,
+        "sea_level": 1023.56,
+        "grnd_level": 1023.32,
+        "humidity": 86
+      },
+      "dt": 1428668976,
+      "wind": {
+        "speed": 7.72,
+        "deg": 238.001
+      },
+      "sys": {"country": "FI"},
+      "clouds": {"all": 24},
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02d"
+        }
+      ]
+    }
+  ]
+}

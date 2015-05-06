@@ -1,0 +1,40 @@
+{
+  "message": "accurate",
+  "cod": "200",
+  "count": 1,
+  "list": [
+    {
+      "id": 524901,
+      "name": "Moscow",
+      "coord": {
+        "lon": 37.615555,
+        "lat": 55.75222
+      },
+      "main": {
+        "temp": 5.19,
+        "temp_min": 5.19,
+        "temp_max": 5.19,
+        "pressure": 1001.5,
+        "sea_level": 1021.59,
+        "grnd_level": 1001.5,
+        "humidity": 90
+      },
+      "dt": 1428668523,
+      "wind": {
+        "speed": 6.16,
+        "deg": 297.504
+      },
+      "sys": {"country": "RU"},
+      "rain": {"3h": 1.22},
+      "clouds": {"all": 48},
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10d"
+        }
+      ]
+    }
+  ]
+}

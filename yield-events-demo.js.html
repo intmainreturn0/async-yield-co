@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .sq {
+            position: absolute;
+            left: 200px; top: 200px; width: 100px; height: 100px;
+            background: #d4fff8;
+            border: 1px solid #b4d1dd;
+            cursor: move;
+        }
+    </style>
+    <script src="22-yield-events-demo.js"></script>
+    <script>
+        var box
+
+        function move( event ) {
+            box.style.left = event.pageX - box.offsetWidth / 2 + 'px'
+            box.style.top = event.pageY - box.offsetHeight / 2 + 'px'
+        }
+
+        function initDragging() {
+            box = document.getElementById( 'box' )
+            // true или !true – оба работают одинаково, но подход разный
+            true ? makeDragStardard( box ) : makeDragCoroutine( box )
+        }
+    </script>
+</head>
+<body onload="initDragging()">
+
+<div class="sq" id="box"></div>
+
+</body>
+</html>
