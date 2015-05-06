@@ -1,0 +1,30 @@
+{
+  "name": "async-yield-co",
+  "version": "1.0.0",
+  "description": "Demos – how yield/co leave callback hell off",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intmainreturn0/async-yield-co.git"
+  },
+  "keywords": [
+    "node.js",
+    "io.js",
+    "non-blocking",
+    "I/O",
+    "async",
+    "generators",
+    "coroutines",
+    "yield",
+    "thunks",
+    "promises",
+    "co",
+    "koa"
+  ],
+  "author": "inv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/intmainreturn0/async-yield-co/issues"
+  },
+  "homepage": "https://github.com/intmainreturn0/async-yield-co#readme"
+}
